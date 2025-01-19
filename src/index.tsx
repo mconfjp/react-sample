@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App.tsx';
-import {Parent} from './components/Parent.tsx';
+// import App from './App.tsx';
+// import {Parent} from './components/Parent.tsx';
+// import {Parent} from './components/UseCallbackParent.tsx';
+import {UseMemoSample} from './components/UseMemoSample.tsx';
 import reportWebVitals from './reportWebVitals.ts';
 
 const root = ReactDOM.createRoot(
@@ -11,7 +13,8 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     {/* <App /> */}
-    <Parent />
+    {/* <Parent /> */}
+    <UseMemoSample />
   </React.StrictMode>
 );
 
